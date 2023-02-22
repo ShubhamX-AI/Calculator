@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.container{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    /* width: 200px; */
+    position: absolute;
+    left: 41%;
+    padding: 22px;
+}
+.inputcontainer input{
+    margin: 17px;
+    width: 249px;
+    padding: 4px;
+    font-size: 26px;
+    border-radius: 8px;
+}
+
+.btn{
+    width: 53px;
+    margin: 4px;
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 30px;
+}
